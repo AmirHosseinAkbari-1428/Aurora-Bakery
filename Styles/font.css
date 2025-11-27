@@ -1,0 +1,14 @@
+@font-face {
+    font-family: "SoDoSans-Regular";
+    src: url(../Fonts/SoDoSans-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "SoDoSans-SemiBold";
+    src: url(../Fonts/SoDoSans-SemiBold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "AbyssinicaSIL-Regular";
+    src: url(../Fonts/AbyssinicaSIL-Regular.ttf) format("truetype");
+}
