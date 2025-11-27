@@ -12,6 +12,17 @@
 
     }
 
+    .btn {
+        width: 17rem;
+        height: 6rem;
+        border-radius: 5rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-family: var(--secondary-font);
+        font-weight: 600;
+    }
+
     html {
         font-size: 10px;
     }
@@ -362,4 +373,66 @@
         object-fit: cover;
         border-top-right-radius: 0.8rem;
         border-bottom-right-radius: 0.8rem;
+    }
+
+    .order {
+        margin-top: 10rem;
+    }
+
+    .order__wrapper {
+        color: var(--main-text-color);
+    }
+
+    .order__main-caption {
+        font-family: var(--secondary-font);
+        font-size: 3.5rem;
+        font-weight: 600;
+        letter-spacing: 0.5rem;
+        line-height: 1.5;
+        margin-bottom: 8rem;
+    }
+
+    .order__content {
+        display: flex;
+        align-items: flex-end;
+        gap: 1.5rem;
+    }
+
+    .order__content__title {
+        font-family: var(--tertiary-font);
+        font-weight: 400;
+        font-family: 2.4rem;
+        margin: 0;
+    }
+
+    .order__content__wrapper {
+        display: flex;
+        flex-direction: column;
+        font-family: var(--primary-font);
+    }
+
+    .order__content__img {}
+
+    .order__content__caption {
+        max-width: 20rem;
+    }
+
+    .order__btn {
+        margin-top: 15rem;
+        display: flex;
+        justify-content: center;
+        gap: 4rem;
+    }
+
+    .order__link {
+        background-color: #FF8B4D;
+        text-decoration: none;
+        font-size: 2rem;
+        font-weight: 600;
+        color: var(--white);
+    }
+    .color-border {
+        border: solid 1px var(--main-text-color);
+        background-color: transparent;
+        color: var(--main-text-color );
     }
