@@ -44,6 +44,17 @@
     .right-nav__shop-icon {
         margin-right: 0;
     }
+
+    /* .order__content {
+        align-items:flex-start;
+    } */
+    .order-menu__content__title {
+        font-size: 3rem;
+    }
+
+    .order-menu__content__caption {
+        font-size: 2rem;
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -71,6 +82,10 @@
         border-bottom-right-radius: 0.8rem;
         border-top-right-radius: 0;
     }
+
+    .order__main-caption {
+        font-size: 2.5rem;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -87,4 +102,16 @@
     }
 }
 
-@media screen and (max-width: 576px) {}
+@media screen and (max-width: 576px) {
+    .order__btn {
+        flex-wrap: wrap;
+    }
+
+    .order__link {
+        flex-grow: 1;
+    }
+
+    .order-menu__content__caption {
+        font-size: 1.7rem;
+    }
+}

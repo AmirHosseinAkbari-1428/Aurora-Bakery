@@ -13,14 +13,18 @@
     }
 
     .btn {
-        width: 17rem;
-        height: 6rem;
+        width: 18.5rem;
+        height: 7rem;
         border-radius: 5rem;
         display: flex;
         justify-content: center;
         align-items: center;
         font-family: var(--secondary-font);
         font-weight: 600;
+        text-decoration: none;
+        font-size: 2.3rem;
+        font-weight: 600;
+        letter-spacing: 0.1rem;
     }
 
     html {
@@ -422,7 +426,7 @@
     .order__content__caption {}
 
     .order__btn {
-        margin-top: 15rem;
+        margin-top: 8rem;
         display: flex;
         justify-content: center;
         gap: 4rem;
@@ -431,9 +435,10 @@
     .order__link {
         background-color: #FF8B4D;
         text-decoration: none;
-        font-size: 2rem;
+        font-size: 2.3rem;
         font-weight: 600;
         color: var(--white);
+        letter-spacing: 0.1rem;
     }
 
     .color-border {
@@ -442,30 +447,62 @@
         color: var(--main-text-color);
     }
 
-    .content__wrapper,
-    .content {
+    .order-menu {
+        margin-top: 10rem;
+    }
+
+    .order-menu__wrapper {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .order-menu__pic {}
+
+    .order-menu__pic__img {
         width: 100%;
         height: 100%;
     }
-    .content {
+
+    .order-menu__content {
+        padding: 5rem;
+        font-family: var(--tertiary-font);
+        color: var(--white);
+        letter-spacing: 0.1rem;
+        border-bottom-left-radius: 0.8rem;
+        border-bottom-right-radius: 0.8rem;
+        height: 100%;
         display: flex;
         flex-direction: column;
-        align-items: flex-end;
     }
 
-    .content__wrapper {
-        display: flex;
-        flex-direction: column;
-        justify-content: flex-end;
+    .order-menu__content__title {
+        margin: 0;
+        font-size: 4rem;
+        font-weight: lighter;
     }
 
-    .content__title {
-        display: flex;
-        justify-content: space-between;
+    .order-menu__content__caption {
+        font-size: 2.3rem;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
     }
 
-    .caption__wrapper {
-        max-width: 40rem;
-        display: flex;
-        justify-content: center;
+    .order-menu__content__btn {
+        border: none;
+        color: var(--white);
+        cursor: pointer;
+        font-weight: lighter;
+        font-size: 2rem;
+        font-family: var(--primary-font);
+        margin-top: auto;
+    }
+
+    .order-menu-orange {
+        background-color: #FF8B4D;
+    }
+
+    .order-menu-red {
+        background-color: #730000;
     }
