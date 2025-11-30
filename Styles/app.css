@@ -560,3 +560,126 @@
         height: 100%;
         object-fit: cover;
     }
+
+    .footer {
+        margin-top: 30rem;
+        background-color: #FF8B4D;
+    }
+
+    .footer__wrapper {
+        padding-top: 6rem;
+        padding-bottom: 5rem;
+        position: relative;
+    }
+
+    .footer__content {}
+
+    .footer___content-top {
+        display: flex;
+        gap: 5rem;
+    }
+
+    .footer__content__logo {
+        height: 13rem;
+    }
+
+    .footer-logo {
+        width: 100%;
+        height: 100%;
+    }
+
+    .footer__content__menu {
+        display: flex;
+        justify-content: space-between;
+        flex-grow: 1;
+        padding-top: 3rem;
+    }
+
+    .footer__menu-box {}
+
+    .footer__title {
+        margin: 0;
+        font-size: 2.6rem;
+        font-family: var(--tertiary-font);
+        font-weight: 400;
+        color: #332323;
+    }
+
+    .footer__menu {
+        padding-left: 0;
+        margin-top: 2.5rem;
+    }
+
+    .footer-menu__item {
+        list-style: none;
+        margin-top: 2rem;
+        font-size: 1.6rem;
+    }
+
+    .footer-menu__link {
+        font-family: var(--secondary-font);
+        font-weight: 600;
+        text-decoration: none;
+        color: #332323;
+    }
+
+    .footer___content-bottom {
+        margin-top: 15rem
+    }
+
+    .footer__content__info {}
+
+    .info {
+        padding-left: 0;
+        display: flex;
+        gap: 5rem;
+    }
+
+    .info__item {
+        list-style: none;
+    }
+
+    .info__link {
+        text-decoration: none;
+        color: #332323;
+        font-family: var(--tertiary-font);
+        font-weight: 400;
+        font-size: 1.6rem;
+    }
+
+    .footer__content__icon {
+        display: flex;
+        gap: 4rem;
+        margin-top: 3rem;
+    }
+
+    .footer-icon {}
+
+    .footer__paying {
+        position: absolute;
+        right: 0;
+        bottom: 10rem;
+        border: solid 1px #000000;
+        border-radius: 1rem;
+        padding: 3rem;
+        max-width: 39rem;
+    }
+
+    .footer__paying__title {
+        color: #332323;
+        font-size: 2rem;
+        font-family: var(--tertiary-font);
+        font-weight: 400;
+        margin-top: 0;
+    }
+
+    .footer__paying__caption {
+        color: #4D3F3F;
+    }
+
+    .footer__paying__icon {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .paying-icon {}
