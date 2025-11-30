@@ -55,6 +55,14 @@
     .order-menu__content__caption {
         font-size: 2rem;
     }
+
+    .map__content {
+        flex-basis: 40%;
+    }
+
+    .map__pic {
+        flex-basis: 60%;
+    }
 }
 
 @media screen and (max-width: 992px) {
@@ -85,6 +93,19 @@
 
     .order__main-caption {
         font-size: 2.5rem;
+    }
+
+    .map__wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .map__content {
+        flex-basis: 50%;
+    }
+
+    .map__pic {
+        flex-basis: 50%;
     }
 }
 

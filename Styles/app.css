@@ -27,6 +27,14 @@
         letter-spacing: 0.1rem;
     }
 
+    .order-menu-orange {
+        background-color: #FF8B4D;
+    }
+
+    .order-menu-red {
+        background-color: #730000;
+    }
+
     html {
         font-size: 10px;
     }
@@ -499,10 +507,56 @@
         margin-top: auto;
     }
 
-    .order-menu-orange {
-        background-color: #FF8B4D;
+    .map {
+        margin-top: 3rem;
     }
 
-    .order-menu-red {
-        background-color: #730000;
+    .map__wrapper {
+        display: flex;
+    }
+
+    .map__content {
+        background-color: #FF8B4D;
+        flex-basis: 35%;
+        padding: 6rem;
+        color: var(--white);
+        display: flex;
+        flex-direction: column;
+        border-top-left-radius: 0.8rem;
+        border-bottom-left-radius: 0.8rem;
+    }
+
+    .map__content__title {
+        font-size: 4rem;
+        font-family: var(--tertiary-font);
+        font-weight: 400;
+        margin: 0;
+    }
+
+    .map__content__caption {
+        font-family: var(--tertiary-font);
+        font-weight: 400;
+        font-size: 2.3rem;
+        margin-top: 5rem;
+        margin-bottom: 5rem;
+    }
+
+    .map__content__btn {
+        margin-top: auto;
+        border: none;
+        color: var(--white);
+        cursor: pointer;
+        font-weight: lighter;
+        font-size: 2rem;
+        font-family: var(--primary-font);
+    }
+
+    .map__pic {
+        flex-basis: 65%;
+    }
+
+    .map__pic__img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
